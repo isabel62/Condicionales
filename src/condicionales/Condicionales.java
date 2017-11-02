@@ -4,29 +4,49 @@
  * and open the template in the editor.
  */
 package condicionales;
-import javax.swing.IngreseJOptionPane;
+import javax.swing.JOptionPane;
 /**
  *
  * @author LAB08
- */swing.JO
+ */
 public class Condicionales {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
        float numero1, numero2;
-       numero1 =Float.parseFloat.(JoptionPane.showInputDialog("Ingrese primer numero"));
-        numero2 =Float.parseFloat.(JoptionPane.showInputDialog("Ingrese segundo numero"));
+       
+       numero1 =Float.parseFloat(JOptionPane.showInputDialog("Ingrese primer numero"));
+       numero2 =Float.parseFloat(JOptionPane.showInputDialog("Ingrese segundo numero"));
                
-    }if(numero1 == numero2//Aqui va una condicion)
+        if(numero1 == numero2)//Aqui va una condicion)
             {      
         //Si la condicion se cumple se ejecuta este codigo
             
-    JOptionPane.showMessageDialog(main "Son iguales");
+    JOptionPane.showMessageDialog(null, "Son iguales");
        }
-         else//   
+         else// Si no se cumple la condicion se ejecuta esto  
          {
+     JOptionPane.showMessageDialog(null, "Son diferentes");
     
-          } 
-            }      
+     if(numero1 > numero2)
+     {
+       JOptionPane.showMessageDialog(null, " Numero"+numero1+"es mayor");  
+                 
+             }
+          else
+     { 
+        JOptionPane.showMessageDialog(null, " Numero"+numero2+"es mayor");
+       
+            
+            
+     }
+        
+            
+     }
+        
+     }
+    
+     }
