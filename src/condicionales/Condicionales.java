@@ -6,18 +6,18 @@
 package condicionales;
 import javax.swing.JOptionPane;
 /**
- *
+ * 
  * @author LAB08
  */
 public class Condicionales {
-
+ 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) 
     {
        float numero1, numero2;
-       
+       //Todo codigo aplicacion logic here
        numero1 =Float.parseFloat(JOptionPane.showInputDialog("Ingrese primer numero"));
        numero2 =Float.parseFloat(JOptionPane.showInputDialog("Ingrese segundo numero"));
                

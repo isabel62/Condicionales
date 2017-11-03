@@ -16,12 +16,22 @@ public static void main(String[] args)
 float nota1;
 float nota2;
 float nota3;
- nota1=Integer.parseInt(JOptionPane.showInputDialog("digite las notas1"));
+float promedio;
 
-float=Integer.parseInt.(JPptionPane.showImputDialog("Ingrese notas2"));
-float=Integer.parseInt.(JOptionPane.showImputDialog("ingrese notas3"));
-float=Integer.parseInt.(JOptionpane.showImputDialog("Mostrar suma , dividido * 3"));
-    float  
 
+ nota1=Integer.parseInt(JOptionPane.showInputDialog("digite la nota 1"));
+ nota2=Integer.parseInt(JOptionPane.showInputDialog("Ingrese notas2"));
+ nota3=Integer.parseInt(JOptionPane.showInputDialog("ingrese notas3"));
+ promedio = (nota1 + nota2 + nota3)/3;
+ 
+    if (promedio >4) 
+    {
+     JOptionPane.showMessageDialog(null, "su nota es mayor que 4");
+    }
+    else
+    {
+        JOptionPane.showMessageDialog(null, "usted reprobo");
+  
+    }
         }  
 }
